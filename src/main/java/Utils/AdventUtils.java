@@ -19,8 +19,8 @@ public class AdventUtils {
             String line = reader.readLine();
             while (line != null) {
                 // read next line
-                line = reader.readLine();
                 result.add(line);
+                line = reader.readLine();
             }
             reader.close();
         } catch (IOException e) {
