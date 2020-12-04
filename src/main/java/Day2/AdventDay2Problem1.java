@@ -9,7 +9,7 @@ import org.apache.commons.lang3.StringUtils;
 public class AdventDay2Problem1 {
 
     private static int computeNumberOfRightPasswords() {
-        List<String> values = AdventUtils.readFromFileToList("src/main/resources/AdventDay1Problem2Input");
+        List<String> values = AdventUtils.readFromFileToList("src/main/resources/AdventDay2Problem1Input");
         int count = 0;
         for (String s : values) {
             // s = 9-10 b: bbktbbbxhfbpb

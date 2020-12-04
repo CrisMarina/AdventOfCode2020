@@ -26,7 +26,7 @@ public class AdventDay3Problem2 {
         BufferedReader reader;
         try {
             reader = new BufferedReader(new FileReader(
-                    "src/main/resources/AdventDay1Problem3Input"));
+                    "src/main/resources/AdventDay3Problem1Input"));
             String line = reader.readLine();
             while (line != null) {
                 currentLine++;
