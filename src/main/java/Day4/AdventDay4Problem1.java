@@ -8,10 +8,6 @@ import java.util.*;
 public class AdventDay4Problem1 {
     private static final List<String> mandatoryFields = Arrays.asList("byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid");
 
-    public static void main(String[] args) {
-        System.out.println(computeNumberOfRightPasswords());
-    }
-
     private static int computeNumberOfRightPasswords() {
         List<String> values = AdventUtils.readFromFileToList("src/main/resources/AdventDay4Problem1Input");
         int count = 0;
