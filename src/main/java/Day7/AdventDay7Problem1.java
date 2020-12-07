@@ -6,7 +6,7 @@ import java.util.*;
 
 public class AdventDay7Problem1 {
 
-    private static int sumOfAnswers() {
+    private static int numberOfBags() {
         List<String> values = AdventUtils.readFromFileToList("src/main/resources/AdventDay7Problem1Input");
         Set<String> results = new HashSet<>();
         List<String> colors = new ArrayList<>();
