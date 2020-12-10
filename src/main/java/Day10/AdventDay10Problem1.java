@@ -2,7 +2,6 @@ package Day10;
 
 import Utils.AdventUtils;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

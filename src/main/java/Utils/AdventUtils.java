@@ -29,6 +29,25 @@ public class AdventUtils {
         return result;
     }
 
+    public static List<Integer> readFromFileToIntegerList(String fileName) {
+        List<Integer> result = new ArrayList<>();
+        BufferedReader reader;
+        try {
+            reader = new BufferedReader(new FileReader(
+                    fileName));
+            String line = reader.readLine();
+            while (line != null) {
+                // read next line
+                result.add(Integer.parseInt(line));
+                line = reader.readLine();
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
     public static Set<String> readFromFileToSet(String fileName) {
         Set<String> result = new HashSet<>();
         BufferedReader reader;
