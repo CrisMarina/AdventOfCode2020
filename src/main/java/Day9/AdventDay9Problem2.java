@@ -10,11 +10,6 @@ import java.util.List;
 public class AdventDay9Problem2 {
     private static final List<String> values = AdventUtils.readFromFileToList("src/main/resources/AdventDay9Problem1Input");
 
-    public static void main(String[] args) {
-        BigInteger preamble = preamble();
-        System.out.println(findWeakness(preamble));
-    }
-
     private static BigInteger findWeakness(BigInteger preamble) {
         for (int i = 0; i < values.size(); i++) {
             BigInteger sum = BigInteger.ZERO;
